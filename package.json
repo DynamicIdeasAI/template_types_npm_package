@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@types/node": "18.15.11",
+    "commitlint": "18.4.4",
     "husky": "8.0.3",
     "pinst": "3.0.0",
     "tslint": "6.1.3",
