@@ -7,6 +7,7 @@
     "lint": "eslint . --fix --max-warnings=0",
     "format": "prettier -w .",
     "test": "",
+    "clear": "rm -rf dist",
     "postinstall": "husky install",
     "lint-staged": "lint-staged",
     "prepack": "pinst --disable",
@@ -49,9 +50,9 @@
     "eslint-plugin-import": "2.29.1"
   },
   "devDependencies": {
-    "@types/node": "18.15.11",
-    "@commitlint/cli": "18.4.4",
-    "@commitlint/config-conventional": "18.4.4",
+    "@types/node": "20.11.6",
+    "@commitlint/cli": "18.5.0",
+    "@commitlint/config-conventional": "18.5.0",
     "husky": "8.0.3",
     "pinst": "3.0.0",
     "tslint": "6.1.3",
