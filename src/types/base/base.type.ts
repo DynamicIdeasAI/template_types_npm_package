@@ -1,3 +1,3 @@
-interface DemoType {}
+interface BaseDataType {}
 
-export type { DemoType };
+export type { BaseDataType };
